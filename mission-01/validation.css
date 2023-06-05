@@ -19,7 +19,8 @@ body {
 .validation__link {
   display: block;
   width: 100%;
-  line-height: 21px;
+  height: 35px;
+  line-height: 1.4;
   margin: 1rem 0;
   background: url(./images/validation-icon.png) no-repeat 1rem 50% #ccc;
   padding: 0.5rem 2.25rem;
