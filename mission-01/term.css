@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  width: 15.625rem;
+  margin: 5rem auto;
+}
+
+.term-container {
+  width: 100%;
+  background: linear-gradient(#ccc, #eee);
+  border: 1px solid #a3a3a3;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.term-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.term-list {
+  margin: 0;
+  display: flow-root;
+  font-size: 0.875rem;
+}
+
+.term-list__term {
+  color: #296897;
+  font-weight: 700;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  float: right;
+  width: 9rem;
+}
+
+.term-list__desc {
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.6;
+  float: right;
+  width: 9rem;
+}
+
+.term-list__img {
+  margin: 0;
+  margin-top: 1rem;
+  float: left;
+}
+
+.term-list__img img {
+  display: block;
+}
+
+/* second */
+.term-list__term:nth-child(4),
+.term-list__desc:nth-child(6) {
+  float: left;
+}
+
+.term-list__img:nth-child(5) {
+  float: right;
+}
