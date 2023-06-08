@@ -60,17 +60,10 @@ fieldset {
   justify-content: space-between;
 }
 
-.inputContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
 .inputContainer__label {
+  display: inline-block;
   width: 3.5rem;
   font-size: 0.875rem;
-  height: 1.5rem;
-  line-height: 1.9;
 }
 
 .inputContainer__input {
@@ -102,7 +95,6 @@ fieldset {
 }
 
 .memberService__memberContainer {
-  width: 3.75rem;
   float: left;
   display: flex;
   align-items: center;
