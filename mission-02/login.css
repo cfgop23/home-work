@@ -29,7 +29,6 @@ fieldset {
 }
 
 .loginWrapper {
-  background-color: aqua;
   width: 15.25rem;
   background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
   border: none;
