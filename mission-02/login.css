@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  visibility: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+}
+
+.wrapper {
+  width: 500px;
+  margin: 5rem auto;
+}
+
+.loginWrapper {
+  background-color: aqua;
+  width: 15.25rem;
+  background: linear-gradient(90deg, #ed552f 0%, #e8852e 100%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0 #aaa;
+  padding: 0.75rem;
+}
+
+.loginTitle {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  color: #ffff00;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.loginForm {
+  background-color: #fff;
+  padding: 0.5rem;
+  padding-bottom: 0.25rem;
+  border-radius: 5px;
+}
+
+.loginFormContainer {
+  position: relative;
+  height: 3.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.inputContainer__label {
+  width: 3.5rem;
+  font-size: 0.875rem;
+  height: 1.5rem;
+  line-height: 1.9;
+}
+
+.inputContainer__input {
+  width: 5.625rem;
+  height: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-left: 0.5rem;
+}
+
+.loginBtn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 3.25rem;
+  color: #fff;
+  background: #ed552f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.memberService {
+  margin-top: 0.5rem;
+  padding-top: 0.25rem;
+  border-top: 1px solid #ccc;
+  display: flow-root;
+  font-size: 0.82rem;
+}
+
+.memberService__memberContainer {
+  width: 3.75rem;
+  float: left;
+  display: flex;
+  align-items: center;
+}
+
+.memberService__findIdPassword {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  color: #ed552f;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.memberSubject {
+  margin-left: 0.25rem;
+}
