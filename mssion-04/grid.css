@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #181818;
+}
+
+a {
+  text-decoration: none;
+  color: #181818;
+}
+
+.news {
+  width: 23.75rem;
+  margin: 10rem auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  font-size: 0.875rem;
+}
+
+.newsHeader {
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.newsHeading {
+  margin: 0;
+  color: #ed552f;
+  font-size: 1rem;
+}
+
+.newsMore {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: end;
+}
+
+.plusIcon {
+  color: #447231;
+  font-size: 2rem;
+  line-height: 0.5;
+  font-weight: 900;
+  margin-right: 0.2rem;
+}
+
+.newsHeader::after {
+  content: "";
+  margin: 0.75rem 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, #a9a9a9 -1.32%, #ffffff 100%);
+}
+
+.newsLink {
+  grid-area: 2 / 1 / 3 / 3;
+}
+
+.newsArticle {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  gap: 1rem;
+}
+
+.newsThumbnail {
+  grid-area: 1 / 1 / 3 / 2;
+  margin: 0;
+}
+
+.newsThumbnail img {
+  width: 100%;
+  box-shadow: 0px 15px 15px 5px #aaaaaa;
+}
+
+.newsThumbnail figcaption {
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.newsContainer {
+  grid-area: 1 / 2 / 3 / 3;
+}
+
+.newsTitle {
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: inherit;
+}
+
+.newsDesc {
+  line-height: 1.6;
+  margin: 0;
+  margin-top: 0.7rem;
+  text-align: justify;
+}
