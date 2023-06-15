@@ -58,6 +58,25 @@
 ```
 - 순서목록에서 기본숫자가 보이지 않게 list-style: none 을 줘서 처리
 ```css
+.sprite {
+  background: url(images/rank.png) no-repeat;
+}
+
+.spriteUp {
+  background-position: 154px 2px;
+}
+
+.spriteDown {
+  background-position: 154px -42px;
+}
+
+.spriteStill {
+  background-position: 154px 50%;
+}
+```
+- sprite 공통 클래스에 리스트 배경으로 이미지를 넣고 반복되지 않게 설정
+- 해당 클래스와 관련된 이미지 위치 찾아 background-position 속성으로 알맞게 위치 설정
+```css
 .favorite__item {
   counter-increment: number;
   margin: 0.5rem 0 0 0;
